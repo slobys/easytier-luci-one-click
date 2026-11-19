@@ -1,0 +1,1702 @@
+{
+  "release": "v2.6.4",
+  "release_api": "https://api.github.com/repos/EasyTier/luci-app-easytier/releases/latest",
+  "release_api_sha256": "72d5f3189ccb23b7ade0dba9033118d3ffab8c52a1433bdb52d90e61688fab7a",
+  "scope": "All upstream assets, package metadata and IPK core --version; not all-firmware validation",
+  "records": [
+    {
+      "asset": "EasyTier-v2.6.4-aarch64_cortex-a53-22.03.7.zip",
+      "arch": "aarch64_cortex-a53",
+      "format": "ipk",
+      "sha256": "7a0f8e49a8405d304718ba1eaef49bb598a6600e364c25f8893261d0594108c0",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a53",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a53",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-aarch64_cortex-a53-SNAPSHOT.zip",
+      "arch": "aarch64_cortex-a53",
+      "format": "apk",
+      "sha256": "f2b7c1ffec51ff5a7a06162b6be8ee319b363157eef2be0a9bbca25598c50ef5",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a53",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a53",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-aarch64_cortex-a72-22.03.7.zip",
+      "arch": "aarch64_cortex-a72",
+      "format": "ipk",
+      "sha256": "4fc0b0060c813f08abd465ad798e6e862352bbc9a58a3e01d701d236ab3270ae",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a72",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a72",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-aarch64_cortex-a72-SNAPSHOT.zip",
+      "arch": "aarch64_cortex-a72",
+      "format": "apk",
+      "sha256": "c8f207621080da0916293232e71529c6ff39d21d9a45fe52170778b149af37e2",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a72",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "aarch64_cortex-a72",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-aarch64_generic-22.03.7.zip",
+      "arch": "aarch64_generic",
+      "format": "ipk",
+      "sha256": "e3ccc015a97009081892f09543b0800c634ad0eb2c9834052ff4fd16fe2cf9a4",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "aarch64_generic",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "aarch64_generic",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip",
+      "arch": "aarch64_generic",
+      "format": "apk",
+      "sha256": "8d9c037a515946f03e50a4ab8649613285f413200c15820fe00907aeaf882152",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "aarch64_generic",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "aarch64_generic",
+          "core_sha256": "7bd504e87cad52edacb9ea84ece7397d0afb911101de623a3dfc4a4dbd9e6bb6"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_arm1176jzf-s_vfp-22.03.7.zip",
+      "arch": "arm_arm1176jzf-s_vfp",
+      "format": "ipk",
+      "sha256": "2018566a7be40e5242d818d9cf577b9d1552d012f797fcc65d6b012c6c825692",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_arm1176jzf-s_vfp",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_arm1176jzf-s_vfp",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_arm1176jzf-s_vfp-SNAPSHOT.zip",
+      "arch": "arm_arm1176jzf-s_vfp",
+      "format": "apk",
+      "sha256": "959b0f5177c0cae10f93c45757d016e7ff2ac28ae819e2f4c691bd8997332ed6",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_arm1176jzf-s_vfp",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_arm1176jzf-s_vfp",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_arm926ej-s-22.03.7.zip",
+      "arch": "arm_arm926ej-s",
+      "format": "ipk",
+      "sha256": "243bb364cbf31e7b3040d620ee4c0baa8b6099c4bf4c0929c898502115867c5b",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_arm926ej-s",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_arm926ej-s",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_arm926ej-s-SNAPSHOT.zip",
+      "arch": "arm_arm926ej-s",
+      "format": "apk",
+      "sha256": "e73406d60efc944583d2ac82fc1c1b62292a803c40fde4803a0dd46229f91ff3",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_arm926ej-s",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_arm926ej-s",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a15_neon-vfpv4-22.03.7.zip",
+      "arch": "arm_cortex-a15_neon-vfpv4",
+      "format": "ipk",
+      "sha256": "c3e486550f943e263e4996cd3bcede65a7bcc5d2af48e69b36318037b38dc283",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a15_neon-vfpv4",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a15_neon-vfpv4",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a15_neon-vfpv4-SNAPSHOT.zip",
+      "arch": "arm_cortex-a15_neon-vfpv4",
+      "format": "apk",
+      "sha256": "8da60bbbbee9f1e5f45791d3dd8b563d7da4b2360966a5726364c868d80cbdfa",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a15_neon-vfpv4",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a15_neon-vfpv4",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a5_vfpv4-22.03.7.zip",
+      "arch": "arm_cortex-a5_vfpv4",
+      "format": "ipk",
+      "sha256": "debc1565e88e315ffb1e9b44a698df47b522da89b7acbdf22dbedb26e65806c6",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a5_vfpv4",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a5_vfpv4",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a5_vfpv4-SNAPSHOT.zip",
+      "arch": "arm_cortex-a5_vfpv4",
+      "format": "apk",
+      "sha256": "9d1b7632b8f435f8e2da38a2c7ae95efde13a4a76d0132a094f2f35065690cb9",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a5_vfpv4",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a5_vfpv4",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a7-22.03.7.zip",
+      "arch": "arm_cortex-a7",
+      "format": "ipk",
+      "sha256": "f19136595f235cd31b7cba56ff2854ed33bb76f2f9067239e7b3f8210cad04c8",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a7-SNAPSHOT.zip",
+      "arch": "arm_cortex-a7",
+      "format": "apk",
+      "sha256": "2b213853face434737bce0f6263b0f0d1142548ab74642055e2746c176654ff3",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a7_neon-vfpv4-22.03.7.zip",
+      "arch": "arm_cortex-a7_neon-vfpv4",
+      "format": "ipk",
+      "sha256": "1a65b9382c7f9cda73d40fbd59843a0ee2ed065d6236aa661e64c929c6b21873",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7_neon-vfpv4",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7_neon-vfpv4",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a7_neon-vfpv4-SNAPSHOT.zip",
+      "arch": "arm_cortex-a7_neon-vfpv4",
+      "format": "apk",
+      "sha256": "983b1a1041ec2b5c01587b16d4f813bf3b55f1e75fcf5fcc1dccce42b80e4242",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7_neon-vfpv4",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a7_neon-vfpv4",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a8_vfpv3-22.03.7.zip",
+      "arch": "arm_cortex-a8_vfpv3",
+      "format": "ipk",
+      "sha256": "6e37e3a1b410d87a7193dcca52f9411e533d9cd73847806583ace79750ae0abe",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a8_vfpv3",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a8_vfpv3",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a8_vfpv3-SNAPSHOT.zip",
+      "arch": "arm_cortex-a8_vfpv3",
+      "format": "apk",
+      "sha256": "6c0cdc95f5f457d9bc3e35ac450a2f83351108240a9d2f11ce48af6f521904e9",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a8_vfpv3",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a8_vfpv3",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a9-22.03.7.zip",
+      "arch": "arm_cortex-a9",
+      "format": "ipk",
+      "sha256": "0e01c4899378713deb922e12c99c43de65aec578996f8c14721cc37e26c97599",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a9-SNAPSHOT.zip",
+      "arch": "arm_cortex-a9",
+      "format": "apk",
+      "sha256": "235f0ec82488b63ab13e26703fe3df8be751e1094aab0c9c2be037d46c1857fa",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a9_neon-22.03.7.zip",
+      "arch": "arm_cortex-a9_neon",
+      "format": "ipk",
+      "sha256": "2f166a685ebfe129c4e023b269421315b62ac71f344244bc6cf29e192ba05390",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_neon",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_neon",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a9_neon-SNAPSHOT.zip",
+      "arch": "arm_cortex-a9_neon",
+      "format": "apk",
+      "sha256": "1bde18bf215ed7107ec8761eb8c85160e5dd92a7fc086960619ed80ca03dee5b",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_neon",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_neon",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a9_vfpv3-d16-22.03.7.zip",
+      "arch": "arm_cortex-a9_vfpv3-d16",
+      "format": "ipk",
+      "sha256": "1d112cef6b7a2f8c6b6e2e76bc10dfbb265583a2937898444170aa88a566da43",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_vfpv3-d16",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_vfpv3-d16",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_cortex-a9_vfpv3-d16-SNAPSHOT.zip",
+      "arch": "arm_cortex-a9_vfpv3-d16",
+      "format": "apk",
+      "sha256": "22f6696af9904c22519525f811ab60b78652cdd3b296638b1cc75cbf924f21a2",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_vfpv3-d16",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_cortex-a9_vfpv3-d16",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_fa526-22.03.7.zip",
+      "arch": "arm_fa526",
+      "format": "ipk",
+      "sha256": "fc3ea0d02fa006d14e94913a69405fc692dd3bd7eb19d25cf55be9b5ca5b64b6",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_fa526",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_fa526",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_fa526-SNAPSHOT.zip",
+      "arch": "arm_fa526",
+      "format": "apk",
+      "sha256": "29fad03d4f4bcd83399d54c22a42d51500e5f0d9ece298103cf767a14de0f157",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_fa526",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_fa526",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_xscale-22.03.7.zip",
+      "arch": "arm_xscale",
+      "format": "ipk",
+      "sha256": "cf7cf367b67b88daa96effc8e7d2e04857b20a5c569ff74d1c6c2f7f926666c0",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_xscale",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_xscale",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-arm_xscale-SNAPSHOT.zip",
+      "arch": "arm_xscale",
+      "format": "apk",
+      "sha256": "bd609953a29d5c0d8e395c5c7b358c8b060a31ae570f03fa06d57add717cfd6f",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "arm_xscale",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "arm_xscale",
+          "core_sha256": "b0fa6b6c9e2f846c64bc333988c3a4c310b3adb7970f11671c7f34f2d65b7bd8"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_24kc-22.03.7.zip",
+      "arch": "mipsel_24kc",
+      "format": "ipk",
+      "sha256": "067721769a3294a514f8f8ac11dde9dc5fc0e6a80711cd3e02f5b1441269fa05",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_24kc-SNAPSHOT.zip",
+      "arch": "mipsel_24kc",
+      "format": "apk",
+      "sha256": "70f91e33f98970287fb9e172b3d595555d34b8417d5465bcaad68d3605ae6c09",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_24kc_24kf-22.03.7.zip",
+      "arch": "mipsel_24kc_24kf",
+      "format": "ipk",
+      "sha256": "67206d15a05fb738f0d0790c65db6f92b60e30b68bd7aa07efec1dab20826ce5",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc_24kf",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc_24kf",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_24kc_24kf-SNAPSHOT.zip",
+      "arch": "mipsel_24kc_24kf",
+      "format": "apk",
+      "sha256": "8e5d95714287f5716e97b47c47aeeaa476c5d6c77ec1f706525f275604c97d0c",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc_24kf",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_24kc_24kf",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_74kc-22.03.7.zip",
+      "arch": "mipsel_74kc",
+      "format": "ipk",
+      "sha256": "7c7a15faf067723e521da15bc9b11e28692c183dabe7611f76b3b372f47c10d2",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_74kc",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_74kc",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_74kc-SNAPSHOT.zip",
+      "arch": "mipsel_74kc",
+      "format": "apk",
+      "sha256": "3671e63d390cf734db786ad924ff3b503109d971692ac03026b19181ff20f04a",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_74kc",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_74kc",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_mips32-22.03.7.zip",
+      "arch": "mipsel_mips32",
+      "format": "ipk",
+      "sha256": "e86a3f2b0e14d243f5e679e663ce50ff459fb7ee3591f5fddeb1829cf196a927",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_mips32",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_mips32",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mipsel_mips32-SNAPSHOT.zip",
+      "arch": "mipsel_mips32",
+      "format": "apk",
+      "sha256": "3b01f0962ed9139b4338b00ca2e77060b28e419bdb4a1d835c12256d6173e419",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mipsel_mips32",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mipsel_mips32",
+          "core_sha256": "2ae281fb79b9026a00a4c9e5bfce6c007f155d919881d64c2a91795011d3a245"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mips_24kc-22.03.7.zip",
+      "arch": "mips_24kc",
+      "format": "ipk",
+      "sha256": "f0f9ca594b7da4e3b7819bbf4b68a814a2f590a0478c7a3aab342291bf9b05ac",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mips_24kc",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mips_24kc",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mips_24kc-SNAPSHOT.zip",
+      "arch": "mips_24kc",
+      "format": "apk",
+      "sha256": "85b4faea04a4f74da9ace8fd48b820d15218f647c745e1ba81b989eb328fbec8",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mips_24kc",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mips_24kc",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mips_mips32-22.03.7.zip",
+      "arch": "mips_mips32",
+      "format": "ipk",
+      "sha256": "32c3943b25012ca186af17028440738c3aac528cebb95f2b3eca2b424c2513e0",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mips_mips32",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mips_mips32",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "qemu-user"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-mips_mips32-SNAPSHOT.zip",
+      "arch": "mips_mips32",
+      "format": "apk",
+      "sha256": "2615aace0fe7677d3131143dd4aa024dc9123c4495e943e24c25848920da0595",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "mips_mips32",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "mips_mips32",
+          "core_sha256": "6f54cddf4a5e680bdbab3c343d479b2cd73eaa83cc8583e6046c157a152ac465"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    },
+    {
+      "asset": "EasyTier-v2.6.4-x86_64-22.03.7.zip",
+      "arch": "x86_64",
+      "format": "ipk",
+      "sha256": "9c21ff8f13fc83467be5033f3ec0607e7390a055ff0204e3c6b7099006bca921",
+      "packages": [
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "x86_64",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "35b854e0c5853c02733870488c977200f6aa06d09c08d5dc7f9f9e150e7be8d5"
+        },
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "x86_64",
+          "depends": "libc, kmod-tun",
+          "core_sha256": "35b854e0c5853c02733870488c977200f6aa06d09c08d5dc7f9f9e150e7be8d5"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4",
+          "arch": "all",
+          "depends": "libc, kmod-tun, luci-compat"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "git-26.136.03667-39d7eda",
+          "arch": "all",
+          "depends": "libc, luci-app-easytier"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested",
+      "core_execution": {
+        "code": 0,
+        "output": "easytier-core 2.6.4-8428a89d",
+        "method": "native-host"
+      }
+    },
+    {
+      "asset": "EasyTier-v2.6.4-x86_64-SNAPSHOT.zip",
+      "arch": "x86_64",
+      "format": "apk",
+      "sha256": "1ed886c4edb736e16d4b6064212d7c88dc95d2d898189f236c9ba0ce711deb44",
+      "packages": [
+        {
+          "name": "easytier",
+          "version": "2.6.4",
+          "arch": "x86_64",
+          "core_sha256": "35b854e0c5853c02733870488c977200f6aa06d09c08d5dc7f9f9e150e7be8d5"
+        },
+        {
+          "name": "easytier-noweb",
+          "version": "2.6.4",
+          "arch": "x86_64",
+          "core_sha256": "35b854e0c5853c02733870488c977200f6aa06d09c08d5dc7f9f9e150e7be8d5"
+        },
+        {
+          "name": "luci-app-easytier",
+          "version": "2.6.4-r1",
+          "arch": "noarch"
+        },
+        {
+          "name": "luci-i18n-easytier-zh-cn",
+          "version": "26.136.03667~39d7eda",
+          "arch": "noarch"
+        }
+      ],
+      "status": "artifact-verified",
+      "firmware_install": "not-tested",
+      "firmware_kernel_service": "not-tested",
+      "mesh_data_plane": "not-tested"
+    }
+  ]
+}

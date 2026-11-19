@@ -1,0 +1,373 @@
+{
+  "records": [
+    {
+      "firmware": "24.10.8",
+      "format": "ipk",
+      "source": "https://downloads.openwrt.org/releases/24.10.8/packages/",
+      "architectures": [
+        {
+          "arch": "aarch64_cortex-a53",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "aarch64_cortex-a72",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "aarch64_cortex-a76",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "aarch64_generic",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_arm1176jzf-s_vfp",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_arm926ej-s",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a15_neon-vfpv4",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a5_vfpv4",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a7",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a7_neon-vfpv4",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a7_vfpv4",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a8_vfpv3",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a9",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a9_neon",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a9_vfpv3-d16",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_fa526",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_xscale",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "armeb_xscale",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "i386_pentium-mmx",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "i386_pentium4",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "loongarch64_generic",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips64_mips64r2",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips64_octeonplus",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips64el_mips64r2",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips_24kc",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips_4kec",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips_mips32",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_24kc",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_24kc_24kf",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_74kc",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_mips32",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "powerpc64_e5500",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "powerpc_464fp",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "powerpc_8548",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "riscv64_riscv64",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "x86_64",
+          "release_asset": "available",
+          "firmware_install": "x86_64-tested-see-firmware-smoke"
+        }
+      ]
+    },
+    {
+      "firmware": "25.12.6",
+      "format": "apk",
+      "source": "https://downloads.openwrt.org/releases/25.12.6/packages/",
+      "architectures": [
+        {
+          "arch": "aarch64_cortex-a53",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "aarch64_cortex-a72",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "aarch64_cortex-a76",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "aarch64_generic",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_arm1176jzf-s_vfp",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_arm926ej-s",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a15_neon-vfpv4",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a5_vfpv4",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a7",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a7_neon-vfpv4",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a7_vfpv4",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a8_vfpv3",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a9",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a9_neon",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_cortex-a9_vfpv3-d16",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_fa526",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "arm_xscale",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "armeb_xscale",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "i386_pentium-mmx",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "i386_pentium4",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "loongarch64_generic",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips64_mips64r2",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips64_octeonplus",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips64el_mips64r2",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips_24kc",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mips_mips32",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_24kc",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_24kc_24kf",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_74kc",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "mipsel_mips32",
+          "release_asset": "available",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "powerpc64_e5500",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "powerpc_464fp",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "powerpc_8548",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "riscv64_generic",
+          "release_asset": "unsupported-no-exact-asset",
+          "firmware_install": "not-tested"
+        },
+        {
+          "arch": "x86_64",
+          "release_asset": "available",
+          "firmware_install": "x86_64-tested-see-firmware-smoke"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: Installer checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install check tools
+        run: sudo apt-get update && sudo apt-get install -y busybox-static shellcheck unzip
+      - name: Verify source checksums
+        run: sha256sum -c SHA256SUMS
+      - name: Shell syntax and static analysis
+        run: |
+          sh -n easytier.sh
+          busybox ash -n easytier.sh
+          shellcheck easytier.sh
+      - name: Shell regressions with official jsonfilter
+        run: python3 tests/run_ci.py
+      - name: README entrypoints reject failed or empty downloads
+        run: python3 tests/test_entrypoints.py

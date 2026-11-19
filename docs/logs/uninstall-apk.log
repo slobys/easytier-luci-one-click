@@ -1,0 +1,204 @@
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/x86/64/packages/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 14982   0:00:00 ETA
+wgetDownload completed (14982 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/base/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   108k  0:00:00 ETA
+wgetDownload completed (110896 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/x86/64/kmods/6.12.112-1-b4125196ecec75391093e1e2edeba490/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   157k  0:00:00 ETA
+wgetDownload completed (161594 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   373k  0:00:00 ETA
+wgetDownload completed (382716 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/packages/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   731k  0:00:00 ETA
+wgetDownload completed (748863 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/routing/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 11833   0:00:00 ETA
+wgetDownload completed (11833 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/telephony/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   109k  0:00:00 ETA
+wgetDownload completed (112619 bytes)
+[fetch https://downloads.openwrt.org/release...]wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/video/packages.adb'
+wgetConnecting to 151.101.2.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 11697   0:00:00 ETA
+wgetDownload completed (11697 bytes)
+ [https://downloads.openwrt.org/releases/25.12.6/targets/x86/64/packages/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/base/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/targets/x86/64/kmods/6.12.112-1-b4125196ecec75391093e1e2edeba490/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/packages/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/routing/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/telephony/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/video/packages.adb]
+OK: 11244 distinct packages available
+(1/1) Installing unzip (6.0-r9)
+  0%                                             wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/packages/unzip-6.0-r9.apk'
+  0%                                             wgetConnecting to 151.101.2.132:443
+  0%                                             wgetWriting to stdout
+  0%                                               1%                                               2% #                                             3% #                                             4% ##                                            5% ##                                            6% ##                                            7% ###                                           8% ###                                           9% ####                                         10% ####                                         11% ####                                         11% #####                                        12% #####                                        13% #####                                        14% ######                                       15% ######                                       16% #######                                      17% #######                                      18% #######                                      18% ########                                     19% ########                                     20% ########                                     20% #########                                    21% #########                                    22% #########                                    23% ##########                                   24% ##########                                   25% ###########                                  26% ###########                                  27% ###########                                  27% ############                                 29% ############                                 37% ################                             55% ########################                    wget
+-                    100% |*******************************|   106k  0:00:00 ETA
+ 55% ########################                    wgetDownload completed (109408 bytes)
+ 55% ########################                     62% ###########################                   Executing unzip-6.0-r9.post-install
+ 62% ###########################                 100% ############################################OK: 11.6 MiB in 137 packages
+包管理器：apk | 软件包架构：x86_64 | Release：v2.6.4
+匹配附件：EasyTier-v2.6.4-x86_64-SNAPSHOT.zip
+来源：https://github.com/EasyTier/luci-app-easytier/releases/tag/v2.6.4
+下载并校验官方 ZIP…
+( 1/12) Installing kmod-tun (6.12.112-r1)
+  0%                                             wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/x86/64/kmods/6.12.112-1-b4125196ecec75391093e1e2edeba490/kmod-tun-6.12.112-r1.apk'
+  0%                                             wgetConnecting to 151.101.2.132:443
+  0%                                             wgetWriting to stdout
+  0%                                               1%                                               2%                                               2% #                                           wget
+-                    100% |*******************************| 26368   0:00:00 ETA
+  2% #                                           wgetDownload completed (26368 bytes)
+  2% #                                             Executing kmod-tun-6.12.112-r1.post-install
+  2% #                                           ( 2/12) Installing liblua5.1.5 (5.1.5-r11)
+  2% #                                             8% ###                                         wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/base/liblua5.1.5-5.1.5-r11.apk'
+  8% ###                                         wgetConnecting to 151.101.2.132:443
+  8% ###                                         wgetWriting to stdout
+  8% ###                                           9% ###                                           9% ####                                         10% ####                                         11% ####                                         11% #####                                        12% #####                                        13% #####                                        14% ######                                       15% ######                                      wget
+-                    100% |*******************************| 71867   0:00:00 ETA
+ 15% ######                                      wgetDownload completed (71867 bytes)
+ 15% ######                                        Executing liblua5.1.5-5.1.5-r11.post-install
+ 15% ######                                      ( 3/12) Installing liblucihttp-lua (2023.03.15~9b5b683f-r1)
+ 15% ######                                       21% #########                                   wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/liblucihttp-lua-2023.03.15~9b5b683f-r1.apk'
+ 21% #########                                   wgetConnecting to 151.101.194.132:443
+ 21% #########                                   wgetWriting to stdout
+ 21% #########                                    22% #########                                   wget
+-                    100% |*******************************|  3999   0:00:00 ETA
+ 22% #########                                   wgetDownload completed (3999 bytes)
+ 22% #########                                     Executing liblucihttp-lua-2023.03.15~9b5b683f-r1.post-install
+ 22% #########                                   ( 4/12) Installing libubus-lua (2026.06.28~24864e78-r2)
+ 22% #########                                    28% ############                                wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/base/libubus-lua-2026.06.28~24864e78-r2.apk'
+ 28% ############                                wgetConnecting to 151.101.194.132:443
+ 28% ############                                wgetWriting to stdout
+ 28% ############                                 29% ############                                wget
+-                    100% |*******************************|  7496   0:00:00 ETA
+ 29% ############                                wgetDownload completed (7496 bytes)
+ 29% ############                                  Executing libubus-lua-2026.06.28~24864e78-r2.post-install
+ 29% ############                                ( 5/12) Installing lua (5.1.5-r11)
+ 29% ############                                 35% ###############                             wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/base/lua-5.1.5-r11.apk'
+ 35% ###############                             wgetConnecting to 151.101.194.132:443
+ 35% ###############                             wgetWriting to stdout
+ 35% ###############                             wget
+-                    100% |*******************************|  5151   0:00:00 ETA
+ 35% ###############                             wgetDownload completed (5151 bytes)
+ 35% ###############                               Executing lua-5.1.5-r11.post-install
+ 35% ###############                             ( 6/12) Installing luci-lib-ip (26.320.60423~5331286)
+ 35% ###############                              42% ##################                          wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/luci-lib-ip-26.320.60423~5331286.apk'
+ 42% ##################                          wgetConnecting to 151.101.194.132:443
+ 42% ##################                          wgetWriting to stdout
+ 42% ##################                           43% ##################                           43% ###################                         wget
+-                    100% |*******************************| 11852   0:00:00 ETA
+ 43% ###################                         wgetDownload completed (11852 bytes)
+ 43% ###################                           Executing luci-lib-ip-26.320.60423~5331286.post-install
+ 43% ###################                         ( 7/12) Installing luci-lib-jsonc (26.320.60423~5331286)
+ 43% ###################                          49% #####################                       wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/luci-lib-jsonc-26.320.60423~5331286.apk'
+ 49% #####################                       wgetConnecting to 151.101.194.132:443
+ 49% #####################                       wgetWriting to stdout
+ 49% #####################                        50% ######################                      wget
+-                    100% |*******************************|  4789   0:00:00 ETA
+ 50% ######################                      wgetDownload completed (4789 bytes)
+ 50% ######################                        Executing luci-lib-jsonc-26.320.60423~5331286.post-install
+ 50% ######################                      ( 8/12) Installing luci-lib-nixio (26.320.60423~5331286)
+ 50% ######################                       56% ########################                    wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/luci-lib-nixio-26.320.60423~5331286.apk'
+ 56% ########################                    wgetConnecting to 151.101.194.132:443
+ 56% ########################                    wgetWriting to stdout
+ 56% ########################                     56% #########################                    57% #########################                    58% #########################                    59% #########################                    59% ##########################                  wget
+-                    100% |*******************************| 32741   0:00:00 ETA
+ 59% ##########################                  wgetDownload completed (32741 bytes)
+ 59% ##########################                    Executing luci-lib-nixio-26.320.60423~5331286.post-install
+ 59% ##########################                  ( 9/12) Installing luci-lib-base (26.320.60423~5331286)
+ 59% ##########################                   65% ############################                wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/luci-lib-base-26.320.60423~5331286.apk'
+ 65% ############################                wgetConnecting to 151.101.194.132:443
+ 65% ############################                wgetWriting to stdout
+ 65% ############################                 66% #############################               wget
+-                    100% |*******************************| 10467   0:00:00 ETA
+ 66% #############################               wgetDownload completed (10467 bytes)
+ 66% #############################                 Executing luci-lib-base-26.320.60423~5331286.post-install
+ 66% #############################               (10/12) Installing ucode-mod-lua (1)
+ 66% #############################                72% ################################            wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/ucode-mod-lua-1.apk'
+ 72% ################################            wgetConnecting to 151.101.194.132:443
+ 72% ################################            wgetWriting to stdout
+ 72% ################################             73% ################################            wget
+-                    100% |*******************************|  9054   0:00:00 ETA
+ 73% ################################            wgetDownload completed (9054 bytes)
+ 73% ################################              Executing ucode-mod-lua-1.post-install
+ 73% ################################            (11/12) Installing luci-lua-runtime (26.320.60423~5331286)
+ 73% ################################             79% ###################################         wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/luci-lua-runtime-26.320.60423~5331286.apk'
+ 79% ###################################         wgetConnecting to 151.101.194.132:443
+ 79% ###################################         wgetWriting to stdout
+ 79% ###################################          80% ###################################          81% ###################################          81% ####################################         82% ####################################        wget
+-                    100% |*******************************| 30581   0:00:00 ETA
+ 82% ####################################        wgetDownload completed (30581 bytes)
+ 82% ####################################          Executing luci-lua-runtime-26.320.60423~5331286.post-install
+ 82% ####################################        (12/12) Installing luci-compat (26.320.60423~5331286)
+ 82% ####################################         89% #######################################     wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/x86_64/luci/luci-compat-26.320.60423~5331286.apk'
+ 89% #######################################     wgetConnecting to 151.101.194.132:443
+ 89% #######################################     wgetWriting to stdout
+ 89% #######################################      90% #######################################      90% ########################################     91% ########################################     92% ########################################     93% #########################################   wget
+-                    100% |*******************************| 48277   0:00:00 ETA
+ 93% #########################################   wgetDownload completed (48277 bytes)
+ 93% #########################################     Executing luci-compat-26.320.60423~5331286.post-install
+ 93% #########################################   100% ############################################OK: 12.3 MiB in 149 packages
+安装选定软件包（APK 仅对本次已校验的本地附件使用 --allow-untrusted）…
+(1/1) Installing luci-app-easytier (2.6.4-r1)
+  0%                                              51% ######################                        Executing luci-app-easytier-2.6.4-r1.post-install
+ 51% ######################                        * start..
+ 51% ######################                        * uci: Entry not found
+ 51% ######################                        * Failed to connect to ubus
+ 51% ######################                      100% ############################################OK: 12.6 MiB in 150 packages
+(1/1) Installing luci-i18n-easytier-zh-cn (26.136.03667~39d7eda)
+  0%                                              18% ########                                      Executing luci-i18n-easytier-zh-cn-26.136.03667~39d7eda.post-install
+ 18% ########                                    100% ############################################OK: 12.6 MiB in 151 packages
+安装完成。重新登录 LuCI，进入「VPN → EasyTier」。
+脚本不写入组网、网络、防火墙或 DNS 配置；首次安装保持上游默认未启用。
+注意：包管理器会执行上游服务钩子，升级已启用的实例可能重启服务；请在 LuCI 核验状态。
+此模式未安装核心，请在「上传程序」中配置程序路径并上传对应二进制。
+将备份并卸载 EasyTier 的 LuCI、语言包和核心；停止该服务，保留依赖及原配置。
+输入 REMOVE 确认：REMOVE
+配置备份：/root/easytier-backups/20261119-021550.MJDkbb/config.tar.gz（可能包含组网密钥，请勿公开）
+stop..
+uci: Entry not found
+Failed to connect to ubus
+(1/1) Purging luci-i18n-easytier-zh-cn (26.136.03667~39d7eda)
+  0%                                               Executing luci-i18n-easytier-zh-cn-26.136.03667~39d7eda.pre-deinstall
+  0%                                               1%                                             100% ############################################OK: 12.6 MiB in 150 packages
+(1/1) Purging luci-app-easytier (2.6.4-r1)
+  0%                                               Executing luci-app-easytier-2.6.4-r1.pre-deinstall
+  0%                                               * stop..
+  0%                                               * uci: Entry not found
+  0%                                               * Failed to connect to ubus
+  0%                                               * 备份luci配置文件/etc/config/easytier到/tmp/easytier_backup
+  0%                                               * 不重启设备之前再次安装luci-app-easytier 配置不丢失,无需重新配置
+  0%                                               * 备份easytier配置目录/etc/easytier到/tmp/et_config_backup
+  0%                                               * 不重启设备之前再次安装luci-app-easytier 配置不丢失,无需重新配置
+  0%                                               6% ##                                          100% ############################################OK: 12.3 MiB in 149 packages
+卸载完成；配置与持久备份已保留。
+/etc/config/easytier: OK
+/etc/easytier/config.toml: OK
+UNINSTALL_PASSED

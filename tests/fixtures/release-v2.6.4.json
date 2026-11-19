@@ -1,0 +1,271 @@
+{
+  "tag_name": "v2.6.4",
+  "draft": false,
+  "prerelease": false,
+  "assets": [
+    {
+      "name": "EasyTier-v2.6.4-aarch64_cortex-a53-22.03.7.zip",
+      "size": 23156676,
+      "digest": "sha256:7a0f8e49a8405d304718ba1eaef49bb598a6600e364c25f8893261d0594108c0",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-aarch64_cortex-a53-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-aarch64_cortex-a53-SNAPSHOT.zip",
+      "size": 23156022,
+      "digest": "sha256:f2b7c1ffec51ff5a7a06162b6be8ee319b363157eef2be0a9bbca25598c50ef5",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-aarch64_cortex-a53-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-aarch64_cortex-a72-22.03.7.zip",
+      "size": 23156680,
+      "digest": "sha256:4fc0b0060c813f08abd465ad798e6e862352bbc9a58a3e01d701d236ab3270ae",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-aarch64_cortex-a72-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-aarch64_cortex-a72-SNAPSHOT.zip",
+      "size": 23156015,
+      "digest": "sha256:c8f207621080da0916293232e71529c6ff39d21d9a45fe52170778b149af37e2",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-aarch64_cortex-a72-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-aarch64_generic-22.03.7.zip",
+      "size": 23156664,
+      "digest": "sha256:e3ccc015a97009081892f09543b0800c634ad0eb2c9834052ff4fd16fe2cf9a4",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-aarch64_generic-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip",
+      "size": 23156008,
+      "digest": "sha256:8d9c037a515946f03e50a4ab8649613285f413200c15820fe00907aeaf882152",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_arm1176jzf-s_vfp-22.03.7.zip",
+      "size": 23275895,
+      "digest": "sha256:2018566a7be40e5242d818d9cf577b9d1552d012f797fcc65d6b012c6c825692",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_arm1176jzf-s_vfp-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_arm1176jzf-s_vfp-SNAPSHOT.zip",
+      "size": 23275139,
+      "digest": "sha256:959b0f5177c0cae10f93c45757d016e7ff2ac28ae819e2f4c691bd8997332ed6",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_arm1176jzf-s_vfp-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_arm926ej-s-22.03.7.zip",
+      "size": 23275866,
+      "digest": "sha256:243bb364cbf31e7b3040d620ee4c0baa8b6099c4bf4c0929c898502115867c5b",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_arm926ej-s-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_arm926ej-s-SNAPSHOT.zip",
+      "size": 23275127,
+      "digest": "sha256:e73406d60efc944583d2ac82fc1c1b62292a803c40fde4803a0dd46229f91ff3",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_arm926ej-s-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a15_neon-vfpv4-22.03.7.zip",
+      "size": 23275921,
+      "digest": "sha256:c3e486550f943e263e4996cd3bcede65a7bcc5d2af48e69b36318037b38dc283",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a15_neon-vfpv4-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a15_neon-vfpv4-SNAPSHOT.zip",
+      "size": 23275160,
+      "digest": "sha256:8da60bbbbee9f1e5f45791d3dd8b563d7da4b2360966a5726364c868d80cbdfa",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a15_neon-vfpv4-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a5_vfpv4-22.03.7.zip",
+      "size": 23275891,
+      "digest": "sha256:debc1565e88e315ffb1e9b44a698df47b522da89b7acbdf22dbedb26e65806c6",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a5_vfpv4-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a5_vfpv4-SNAPSHOT.zip",
+      "size": 23275136,
+      "digest": "sha256:9d1b7632b8f435f8e2da38a2c7ae95efde13a4a76d0132a094f2f35065690cb9",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a5_vfpv4-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a7-22.03.7.zip",
+      "size": 23275856,
+      "digest": "sha256:f19136595f235cd31b7cba56ff2854ed33bb76f2f9067239e7b3f8210cad04c8",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a7-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a7-SNAPSHOT.zip",
+      "size": 23275128,
+      "digest": "sha256:2b213853face434737bce0f6263b0f0d1142548ab74642055e2746c176654ff3",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a7-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a7_neon-vfpv4-22.03.7.zip",
+      "size": 23275918,
+      "digest": "sha256:1a65b9382c7f9cda73d40fbd59843a0ee2ed065d6236aa661e64c929c6b21873",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a7_neon-vfpv4-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a7_neon-vfpv4-SNAPSHOT.zip",
+      "size": 23275158,
+      "digest": "sha256:983b1a1041ec2b5c01587b16d4f813bf3b55f1e75fcf5fcc1dccce42b80e4242",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a7_neon-vfpv4-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a8_vfpv3-22.03.7.zip",
+      "size": 23275887,
+      "digest": "sha256:6e37e3a1b410d87a7193dcca52f9411e533d9cd73847806583ace79750ae0abe",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a8_vfpv3-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a8_vfpv3-SNAPSHOT.zip",
+      "size": 23275136,
+      "digest": "sha256:6c0cdc95f5f457d9bc3e35ac450a2f83351108240a9d2f11ce48af6f521904e9",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a8_vfpv3-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a9-22.03.7.zip",
+      "size": 23275856,
+      "digest": "sha256:0e01c4899378713deb922e12c99c43de65aec578996f8c14721cc37e26c97599",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a9-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a9-SNAPSHOT.zip",
+      "size": 23275125,
+      "digest": "sha256:235f0ec82488b63ab13e26703fe3df8be751e1094aab0c9c2be037d46c1857fa",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a9-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a9_neon-22.03.7.zip",
+      "size": 23275879,
+      "digest": "sha256:2f166a685ebfe129c4e023b269421315b62ac71f344244bc6cf29e192ba05390",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a9_neon-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a9_neon-SNAPSHOT.zip",
+      "size": 23275141,
+      "digest": "sha256:1bde18bf215ed7107ec8761eb8c85160e5dd92a7fc086960619ed80ca03dee5b",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a9_neon-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a9_vfpv3-d16-22.03.7.zip",
+      "size": 23275917,
+      "digest": "sha256:1d112cef6b7a2f8c6b6e2e76bc10dfbb265583a2937898444170aa88a566da43",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a9_vfpv3-d16-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_cortex-a9_vfpv3-d16-SNAPSHOT.zip",
+      "size": 23275152,
+      "digest": "sha256:22f6696af9904c22519525f811ab60b78652cdd3b296638b1cc75cbf924f21a2",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_cortex-a9_vfpv3-d16-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_fa526-22.03.7.zip",
+      "size": 23275835,
+      "digest": "sha256:fc3ea0d02fa006d14e94913a69405fc692dd3bd7eb19d25cf55be9b5ca5b64b6",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_fa526-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_fa526-SNAPSHOT.zip",
+      "size": 23275118,
+      "digest": "sha256:29fad03d4f4bcd83399d54c22a42d51500e5f0d9ece298103cf767a14de0f157",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_fa526-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_xscale-22.03.7.zip",
+      "size": 23275842,
+      "digest": "sha256:cf7cf367b67b88daa96effc8e7d2e04857b20a5c569ff74d1c6c2f7f926666c0",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_xscale-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-arm_xscale-SNAPSHOT.zip",
+      "size": 23275126,
+      "digest": "sha256:bd609953a29d5c0d8e395c5c7b358c8b060a31ae570f03fa06d57add717cfd6f",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-arm_xscale-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_24kc-22.03.7.zip",
+      "size": 18850636,
+      "digest": "sha256:067721769a3294a514f8f8ac11dde9dc5fc0e6a80711cd3e02f5b1441269fa05",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_24kc-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_24kc-SNAPSHOT.zip",
+      "size": 18850018,
+      "digest": "sha256:70f91e33f98970287fb9e172b3d595555d34b8417d5465bcaad68d3605ae6c09",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_24kc-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_24kc_24kf-22.03.7.zip",
+      "size": 18850660,
+      "digest": "sha256:67206d15a05fb738f0d0790c65db6f92b60e30b68bd7aa07efec1dab20826ce5",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_24kc_24kf-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_24kc_24kf-SNAPSHOT.zip",
+      "size": 18850032,
+      "digest": "sha256:8e5d95714287f5716e97b47c47aeeaa476c5d6c77ec1f706525f275604c97d0c",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_24kc_24kf-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_74kc-22.03.7.zip",
+      "size": 18850632,
+      "digest": "sha256:7c7a15faf067723e521da15bc9b11e28692c183dabe7611f76b3b372f47c10d2",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_74kc-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_74kc-SNAPSHOT.zip",
+      "size": 18850024,
+      "digest": "sha256:3671e63d390cf734db786ad924ff3b503109d971692ac03026b19181ff20f04a",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_74kc-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_mips32-22.03.7.zip",
+      "size": 18850639,
+      "digest": "sha256:e86a3f2b0e14d243f5e679e663ce50ff459fb7ee3591f5fddeb1829cf196a927",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_mips32-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mipsel_mips32-SNAPSHOT.zip",
+      "size": 18850024,
+      "digest": "sha256:3b01f0962ed9139b4338b00ca2e77060b28e419bdb4a1d835c12256d6173e419",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mipsel_mips32-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mips_24kc-22.03.7.zip",
+      "size": 18421105,
+      "digest": "sha256:f0f9ca594b7da4e3b7819bbf4b68a814a2f590a0478c7a3aab342291bf9b05ac",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mips_24kc-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mips_24kc-SNAPSHOT.zip",
+      "size": 18420412,
+      "digest": "sha256:85b4faea04a4f74da9ace8fd48b820d15218f647c745e1ba81b989eb328fbec8",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mips_24kc-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mips_mips32-22.03.7.zip",
+      "size": 18421116,
+      "digest": "sha256:32c3943b25012ca186af17028440738c3aac528cebb95f2b3eca2b424c2513e0",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mips_mips32-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-mips_mips32-SNAPSHOT.zip",
+      "size": 18420415,
+      "digest": "sha256:2615aace0fe7677d3131143dd4aa024dc9123c4495e943e24c25848920da0595",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-mips_mips32-SNAPSHOT.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-x86_64-22.03.7.zip",
+      "size": 29153079,
+      "digest": "sha256:9c21ff8f13fc83467be5033f3ec0607e7390a055ff0204e3c6b7099006bca921",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-x86_64-22.03.7.zip"
+    },
+    {
+      "name": "EasyTier-v2.6.4-x86_64-SNAPSHOT.zip",
+      "size": 29152502,
+      "digest": "sha256:1ed886c4edb736e16d4b6064212d7c88dc95d2d898189f236c9ba0ce711deb44",
+      "browser_download_url": "https://github.com/EasyTier/luci-app-easytier/releases/download/v2.6.4/EasyTier-v2.6.4-x86_64-SNAPSHOT.zip"
+    }
+  ]
+}

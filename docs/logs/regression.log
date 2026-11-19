@@ -1,0 +1,29 @@
+test_all_upstream_release_selectors (__main__.InstallerTests.test_all_upstream_release_selectors) ... ok
+test_busybox_zip_directory (__main__.InstallerTests.test_busybox_zip_directory) ... ok
+test_compact_json_release (__main__.InstallerTests.test_compact_json_release) ... ok
+test_detect_false_package_success (__main__.InstallerTests.test_detect_false_package_success) ... ok
+test_empty_success_transport (__main__.InstallerTests.test_empty_success_transport) ... ok
+test_empty_zip (__main__.InstallerTests.test_empty_zip) ... ok
+test_failed_download (__main__.InstallerTests.test_failed_download) ... ok
+test_foreign_lock_is_not_removed (__main__.InstallerTests.test_foreign_lock_is_not_removed) ... ok
+test_full_apk_transaction (__main__.InstallerTests.test_full_apk_transaction) ... ok
+test_full_ipk_transaction (__main__.InstallerTests.test_full_ipk_transaction) ... ok
+test_luci_only (__main__.InstallerTests.test_luci_only) ... ok
+test_missing_architecture (__main__.InstallerTests.test_missing_architecture) ... ok
+test_missing_digest (__main__.InstallerTests.test_missing_digest) ... ok
+test_nonzero_partial_transport (__main__.InstallerTests.test_nonzero_partial_transport) ... ok
+test_partial_feed_update_is_not_fatal (__main__.InstallerTests.test_partial_feed_update_is_not_fatal) ... ok
+test_preserve_config_after_failed_transaction (__main__.InstallerTests.test_preserve_config_after_failed_transaction) ... ok
+test_real_concurrent_lock_ownership (__main__.InstallerTests.test_real_concurrent_lock_ownership) ... ok
+test_refuse_conflicting_core (__main__.InstallerTests.test_refuse_conflicting_core) ... ok
+test_reject_downgrade (__main__.InstallerTests.test_reject_downgrade) ... ok
+test_reject_prerelease (__main__.InstallerTests.test_reject_prerelease) ... ok
+test_reject_stale_upstream_config (__main__.InstallerTests.test_reject_stale_upstream_config) ... ok
+test_signal_exits_and_preserves_foreign_work (__main__.InstallerTests.test_signal_exits_and_preserves_foreign_work) ... ok
+test_wrong_digest (__main__.InstallerTests.test_wrong_digest) ... ok
+test_wrong_size (__main__.InstallerTests.test_wrong_size) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 3.447s
+
+OK

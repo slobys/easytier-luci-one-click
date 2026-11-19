@@ -1,0 +1,275 @@
+Downloading https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/packages/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/packages/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************| 10057   0:00:00 ETA
+Download completed (10057 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_core
+Downloading https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/packages/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/packages/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************| 73030   0:00:00 ETA
+Download completed (73030 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_base
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/kmods/6.6.144-1-50daf8372d971124fb3519e8d87e02ae/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/kmods/6.6.144-1-50daf8372d971124fb3519e8d87e02ae/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   100k  0:00:00 ETA
+Download completed (102635 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_kmods
+Downloading https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/kmods/6.6.144-1-50daf8372d971124fb3519e8d87e02ae/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/kmods/6.6.144-1-50daf8372d971124fb3519e8d87e02ae/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   201k  0:00:00 ETA
+Download completed (206787 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_luci
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/packages/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/packages/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   509k  0:00:00 ETA
+Download completed (521557 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_packages
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/packages/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/packages/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/routing/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/routing/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|  9938   0:00:00 ETA
+Download completed (9938 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_routing
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/routing/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/routing/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/telephony/Packages.gz
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/telephony/Packages.gz'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.gz'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************| 58240   0:00:00 ETA
+Download completed (58240 bytes)
+Updated list of available packages in /var/opkg-lists/openwrt_telephony
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/telephony/Packages.sig
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/telephony/Packages.sig'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-CbClhL/Packages.sig'
+
+/tmp/opkg-CbClhL/Pac 100% |*******************************|   142   0:00:00 ETA
+Download completed (142 bytes)
+Signature check passed.
+Upgrading ca-bundle on root from 20260601-r1 to 20260816-r2...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/ca-bundle_20260816-r2_all.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/ca-bundle_20260816-r2_all.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-kOCGOD/ca-bundle_20260816-r2_all.ipk'
+
+/tmp/opkg-kOCGOD/ca- 100% |*******************************|   104k  0:00:00 ETA
+Download completed (107077 bytes)
+Package jsonfilter (2025.04.18~8a86fb78-r1) installed in root is up to date.
+Installing unzip (6.0-r9) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/packages/unzip_6.0-r9_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/packages/unzip_6.0-r9_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-kOCGOD/unzip_6.0-r9_x86_64.ipk'
+
+/tmp/opkg-kOCGOD/unz 100% |*******************************|   106k  0:00:00 ETA
+Download completed (109385 bytes)
+Configuring unzip.
+Configuring ca-bundle.
+包管理器：opkg | 软件包架构：x86_64 | Release：v2.6.4
+匹配附件：EasyTier-v2.6.4-x86_64-22.03.7.zip
+来源：https://github.com/EasyTier/luci-app-easytier/releases/tag/v2.6.4
+下载并校验官方 ZIP…
+Installing kmod-tun (6.6.144-r1) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/kmods/6.6.144-1-50daf8372d971124fb3519e8d87e02ae/kmod-tun_6.6.144-r1_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/kmods/6.6.144-1-50daf8372d971124fb3519e8d87e02ae/kmod-tun_6.6.144-r1_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/kmod-tun_6.6.144-r1_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/kmo 100% |*******************************| 29655   0:00:00 ETA
+Download completed (29655 bytes)
+Installing luci-compat (26.301.70438~aa4865e) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-compat_26.301.70438~aa4865e_all.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-compat_26.301.70438~aa4865e_all.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/luci-compat_26.301.70438~aa4865e_all.ipk'
+
+/tmp/opkg-eDnHPP/luc 100% |*******************************| 46440   0:00:00 ETA
+Download completed (46440 bytes)
+Installing liblua5.1.5 (5.1.5-r11) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/liblua5.1.5_5.1.5-r11_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/liblua5.1.5_5.1.5-r11_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/liblua5.1.5_5.1.5-r11_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/lib 100% |*******************************| 74330   0:00:00 ETA
+Download completed (74330 bytes)
+Installing lua (5.1.5-r11) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/lua_5.1.5-r11_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/lua_5.1.5-r11_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/lua_5.1.5-r11_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/lua 100% |*******************************|  5412   0:00:00 ETA
+Download completed (5412 bytes)
+Installing luci-lib-nixio (26.301.70438~aa4865e) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-nixio_26.301.70438~aa4865e_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-nixio_26.301.70438~aa4865e_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/luci-lib-nixio_26.301.70438~aa4865e_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/luc 100% |*******************************| 34191   0:00:00 ETA
+Download completed (34191 bytes)
+Installing luci-lib-ip (26.301.70438~aa4865e) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-ip_26.301.70438~aa4865e_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-ip_26.301.70438~aa4865e_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/luci-lib-ip_26.301.70438~aa4865e_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/luc 100% |*******************************| 12677   0:00:00 ETA
+Download completed (12677 bytes)
+Installing luci-lib-jsonc (26.301.70438~aa4865e) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-jsonc_26.301.70438~aa4865e_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-jsonc_26.301.70438~aa4865e_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/luci-lib-jsonc_26.301.70438~aa4865e_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/luc 100% |*******************************|  5169   0:00:00 ETA
+Download completed (5169 bytes)
+Installing liblucihttp-lua (2023.03.15~9b5b683f-r1) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/liblucihttp-lua_2023.03.15~9b5b683f-r1_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/liblucihttp-lua_2023.03.15~9b5b683f-r1_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/liblucihttp-lua_2023.03.15~9b5b683f-r1_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/lib 100% |*******************************|  4357   0:00:00 ETA
+Download completed (4357 bytes)
+Installing luci-lib-base (26.301.70438~aa4865e) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-base_26.301.70438~aa4865e_all.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lib-base_26.301.70438~aa4865e_all.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/luci-lib-base_26.301.70438~aa4865e_all.ipk'
+
+/tmp/opkg-eDnHPP/luc 100% |*******************************| 10546   0:00:00 ETA
+Download completed (10546 bytes)
+Installing libubus-lua (2025.10.17~60e04048-r1) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/libubus-lua_2025.10.17~60e04048-r1_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/base/libubus-lua_2025.10.17~60e04048-r1_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/libubus-lua_2025.10.17~60e04048-r1_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/lib 100% |*******************************|  7879   0:00:00 ETA
+Download completed (7879 bytes)
+Installing ucode-mod-lua (1) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/ucode-mod-lua_1_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/ucode-mod-lua_1_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/ucode-mod-lua_1_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/uco 100% |*******************************|  9518   0:00:00 ETA
+Download completed (9518 bytes)
+Installing luci-lua-runtime (26.301.70438~aa4865e) to root...
+Downloading https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lua-runtime_26.301.70438~aa4865e_x86_64.ipk
+Downloading 'https://downloads.openwrt.org/releases/24.10.8/packages/x86_64/luci/luci-lua-runtime_26.301.70438~aa4865e_x86_64.ipk'
+Connecting to 151.101.2.132:443
+Writing to '/tmp/opkg-eDnHPP/luci-lua-runtime_26.301.70438~aa4865e_x86_64.ipk'
+
+/tmp/opkg-eDnHPP/luc 100% |*******************************| 30560   0:00:00 ETA
+Download completed (30560 bytes)
+Configuring liblua5.1.5.
+Configuring lua.
+Configuring luci-lib-nixio.
+Configuring luci-lib-ip.
+Configuring luci-lib-jsonc.
+Configuring liblucihttp-lua.
+Configuring luci-lib-base.
+Configuring libubus-lua.
+Configuring kmod-tun.
+Configuring ucode-mod-lua.
+Configuring luci-lua-runtime.
+Configuring luci-compat.
+安装选定软件包（APK 仅对本次已校验的本地附件使用 --allow-untrusted）…
+Installing luci-app-easytier (2.6.4) to root...
+Configuring luci-app-easytier.
+start..
+uci: Entry not found
+Failed to connect to ubus
+Installing luci-i18n-easytier-zh-cn (git-26.136.03667-39d7eda) to root...
+Configuring luci-i18n-easytier-zh-cn.
+安装完成。重新登录 LuCI，进入「VPN → EasyTier」。
+脚本不写入组网、网络、防火墙或 DNS 配置；首次安装保持上游默认未启用。
+注意：包管理器会执行上游服务钩子，升级已启用的实例可能重启服务；请在 LuCI 核验状态。
+此模式未安装核心，请在「上传程序」中配置程序路径并上传对应二进制。
+将备份并卸载 EasyTier 的 LuCI、语言包和核心；停止该服务，保留依赖及原配置。
+输入 REMOVE 确认：REMOVE
+配置备份：/root/easytier-backups/20261119-021527.hEMnNf/config.tar.gz（可能包含组网密钥，请勿公开）
+stop..
+uci: Entry not found
+Failed to connect to ubus
+Removing package luci-i18n-easytier-zh-cn from root...
+Removing package luci-app-easytier from root...
+备份luci配置文件/etc/config/easytier到/tmp/easytier_backup
+不重启设备之前再次安装luci-app-easytier 配置不丢失,无需重新配置
+备份easytier配置目录/etc/easytier到/tmp/et_config_backup
+不重启设备之前再次安装luci-app-easytier 配置不丢失,无需重新配置
+stop..
+uci: Entry not found
+Failed to connect to ubus
+Not deleting modified conffile /etc/config/easytier.
+卸载完成；配置与持久备份已保留。
+/etc/config/easytier: OK
+/etc/easytier/config.toml: OK
+UNINSTALL_PASSED
