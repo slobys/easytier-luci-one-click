@@ -5,6 +5,7 @@
 - 修复 APK 固件的架构识别：优先读取 `/etc/apk/arch`，缺失时读取 `DISTRIB_ARCH`，最后才使用 APK 编译架构。
 - 解决 iStoreOS / Rockchip 上 `apk --print-arch` 返回 `aarch64`、包 ABI 实为 `aarch64_generic` 导致选包失败的问题；不强制跨架构、不改固件架构配置。
 - 增加配置优先级、缺失回退、异常值拒绝和 ARM 完整检测链路回归。
+- 验证报告：[32 项回归与两套原始 ARM 固件安装验证](docs/validation-1.0.1.md)。
 
 ## 1.0.0
 

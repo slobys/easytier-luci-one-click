@@ -142,7 +142,20 @@ apk() {{ if [ "$1" = version ]; then echo '<'; else touch '{self.root}/installed
             arch, sdk = m.groups()
             self.ext = 'apk' if sdk == 'SNAPSHOT' else 'ipk'
             self.sdk = sdk
-            out = self.run_code(f'ARCH={arch}; workspace; release_info')
+            (self.root / 'etc/openwrt_release').write_text(f"DISTRIB_ARCH='{arch}'\n")
+            db = self.root / 'lib/apk/db/installed'
+            if self.ext == 'apk':
+                (self.root / 'etc/apk').mkdir(exist_ok=True)
+                (self.root / 'etc/apk/arch').write_text(arch + '\n')
+                db.touch()
+            else:
+                db.unlink(missing_ok=True)
+            # Exercise detection too, not only a manually assigned ARCH.
+            # The compiled architecture must not override the configured ABI.
+            out = self.run_code(f'''uci() {{ :; }}
+apk() {{ echo 'unexpected compiled-arch lookup' >&2; return 99; }}
+opkg() {{ printf 'arch all 1\\narch noarch 1\\narch {arch} 10\\n'; }}
+detect; workspace; release_info''')
             self.assertIn(asset['name'], out.stdout)
 
     def test_missing_architecture(self):

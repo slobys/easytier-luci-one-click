@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "firmware": "OpenWrt 25.12.6 rockchip/armv8 NanoPi R2S",
+      "image_url": "https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/openwrt-25.12.6-rockchip-armv8-friendlyarm_nanopi-r2s-squashfs-sysupgrade.img.gz",
+      "image_sha256": "599a61b74b4268892192ac1585cf0e58c9dc4df37cfca7a35be3417ba5ce362a",
+      "script_version": "1.0.1",
+      "script_sha256": "1a3a9cc964d89e698902dc4c7082610434bbd99b5bd1a6f9ab697a6d3d34f968",
+      "compiled_apk_arch": "aarch64",
+      "configured_package_arch": "aarch64_generic",
+      "detection": "passed",
+      "core_package": "easytier 2.6.4",
+      "luci_package": "luci-app-easytier 2.6.4-r1",
+      "install_with_prepared_dependencies": "passed",
+      "repeat_install": "passed",
+      "uci_toml_hash_retention": "passed",
+      "disabled_init_retention": "passed",
+      "core_version_execution": "easytier-core 2.6.4-8428a89d passed",
+      "environment": "Docker amd64 + QEMU aarch64 user + PRoot; original firmware rootfs, database and feeds",
+      "github_transport": "wget uses SHA-256-verified original ZIP/API fixtures; not proof of user-router network reachability",
+      "firmware_kernel_and_real_mesh": "not-tested",
+      "log": "logs/v1.0.1/openwrt-arm.log"
+    },
+    {
+      "firmware": "iStoreOS 25.12.6 2026110611 rockchip/armv8 R4S",
+      "image_url": "https://fw.koolcenter.com/iStoreOS/r4s/istoreos-25.12.6-2026110611-r4s-squashfs.img.gz",
+      "image_sha256": "eabb6115cd1f2c9258f939a53128deae8e54795454ceb6f9b71889146ffeac47",
+      "script_version": "1.0.1",
+      "script_sha256": "1a3a9cc964d89e698902dc4c7082610434bbd99b5bd1a6f9ab697a6d3d34f968",
+      "compiled_apk_arch": "aarch64",
+      "configured_package_arch": "aarch64_generic",
+      "detection": "passed",
+      "core_package": "easytier 2.6.4",
+      "luci_package": "luci-app-easytier 2.6.4-r1",
+      "install_with_prepared_dependencies": "passed",
+      "repeat_install": "passed",
+      "uci_toml_hash_retention": "passed",
+      "disabled_init_retention": "passed",
+      "core_version_execution": "easytier-core 2.6.4-8428a89d passed",
+      "environment": "Docker amd64 + QEMU aarch64 user + PRoot; original firmware rootfs, database and feeds",
+      "github_transport": "wget uses SHA-256-verified original ZIP/API fixtures; not proof of user-router network reachability",
+      "firmware_kernel_and_real_mesh": "not-tested",
+      "log": "logs/v1.0.1/istoreos-arm.log"
+    }
+  ]
+}

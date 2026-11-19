@@ -1,0 +1,161 @@
+aarch64
+aarch64_generic
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/packages/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 13744   0:00:00 ETA
+wgetDownload completed (13744 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/base/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   107k  0:00:00 ETA
+wgetDownload completed (110264 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/kmods/6.12.112-1-5eacf764ba9415e5d7ff4aecb2e45c4d/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   148k  0:00:00 ETA
+wgetDownload completed (152310 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/luci/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   373k  0:00:00 ETA
+wgetDownload completed (382808 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/packages/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   729k  0:00:00 ETA
+wgetDownload completed (747160 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/routing/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 11835   0:00:00 ETA
+wgetDownload completed (11835 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/telephony/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   108k  0:00:00 ETA
+wgetDownload completed (111001 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/video/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 13117   0:00:00 ETA
+wgetDownload completed (13117 bytes)
+ [https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/packages/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/base/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/kmods/6.12.112-1-5eacf764ba9415e5d7ff4aecb2e45c4d/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/luci/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/packages/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/routing/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/telephony/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/video/packages.adb]
+OK: 11160 distinct packages available
+包管理器：apk | 软件包架构：aarch64_generic | Release：v2.6.4
+架构来源：/etc/apk/arch
+匹配附件：EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip
+来源：https://github.com/EasyTier/luci-app-easytier/releases/tag/v2.6.4
+下载并校验官方 ZIP…
+OK: 11.8 MiB in 151 packages
+安装选定软件包（APK 仅对本次已校验的本地附件使用 --allow-untrusted）…
+(1/1) Installing easytier (2.6.4)
+  Executing easytier-2.6.4.post-install
+OK: 25.9 MiB in 152 packages
+(1/1) Installing luci-app-easytier (2.6.4-r1)
+  Executing luci-app-easytier-2.6.4-r1.post-install
+  * start..
+  * df: /installer.sh: No such file or directory
+  * df: /verification: No such file or directory
+  * df: /target/tmp: No such file or directory
+  * df: /etc/hostname: No such file or directory
+  * uci: Entry not found
+  * Failed to connect to ubus
+OK: 26.2 MiB in 153 packages
+(1/1) Installing luci-i18n-easytier-zh-cn (26.136.03667~39d7eda)
+  Executing luci-i18n-easytier-zh-cn-26.136.03667~39d7eda.post-install
+OK: 26.2 MiB in 154 packages
+核心运行核验：easytier-core 2.6.4-8428a89d
+安装完成。重新登录 LuCI，进入「VPN → EasyTier」。
+脚本不写入组网、网络、防火墙或 DNS 配置；首次安装保持上游默认未启用。
+注意：包管理器会执行上游服务钩子，升级已启用的实例可能重启服务；请在 LuCI 核验状态。
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/packages/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 13744   0:00:00 ETA
+wgetDownload completed (13744 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/base/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   107k  0:00:00 ETA
+wgetDownload completed (110264 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/kmods/6.12.112-1-5eacf764ba9415e5d7ff4aecb2e45c4d/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   148k  0:00:00 ETA
+wgetDownload completed (152310 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/luci/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   373k  0:00:00 ETA
+wgetDownload completed (382808 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/packages/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   729k  0:00:00 ETA
+wgetDownload completed (747160 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/routing/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 11835   0:00:00 ETA
+wgetDownload completed (11835 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/telephony/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************|   108k  0:00:00 ETA
+wgetDownload completed (111001 bytes)
+wgetDownloading 'https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/video/packages.adb'
+wgetConnecting to 151.101.66.132:443
+wgetWriting to stdout
+wget
+-                    100% |*******************************| 13117   0:00:00 ETA
+wgetDownload completed (13117 bytes)
+ [https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/packages/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/base/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/targets/rockchip/armv8/kmods/6.12.112-1-5eacf764ba9415e5d7ff4aecb2e45c4d/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/luci/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/packages/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/routing/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/telephony/packages.adb]
+ [https://downloads.openwrt.org/releases/25.12.6/packages/aarch64_generic/video/packages.adb]
+OK: 11163 distinct packages available
+包管理器：apk | 软件包架构：aarch64_generic | Release：v2.6.4
+架构来源：/etc/apk/arch
+匹配附件：EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip
+来源：https://github.com/EasyTier/luci-app-easytier/releases/tag/v2.6.4
+下载并校验官方 ZIP…
+OK: 26.2 MiB in 154 packages
+配置备份：/root/easytier-backups/20261119-025101.CCiMpI/config.tar.gz（可能包含组网密钥，请勿公开）
+安装选定软件包（APK 仅对本次已校验的本地附件使用 --allow-untrusted）…
+OK: 26.2 MiB in 154 packages
+OK: 26.2 MiB in 154 packages
+OK: 26.2 MiB in 154 packages
+核心运行核验：easytier-core 2.6.4-8428a89d
+安装完成。重新登录 LuCI，进入「VPN → EasyTier」。
+脚本不写入组网、网络、防火墙或 DNS 配置；首次安装保持上游默认未启用。
+注意：包管理器会执行上游服务钩子，升级已启用的实例可能重启服务；请在 LuCI 核验状态。
+/etc/config/easytier: OK
+/etc/easytier/config.toml: OK
+ARM_INSTALL_PASSED

@@ -1,0 +1,18 @@
+test_apk_detect_uses_configured_package_architecture (__main__.InstallerTests.test_apk_detect_uses_configured_package_architecture) ... FAIL
+
+======================================================================
+FAIL: test_apk_detect_uses_configured_package_architecture (__main__.InstallerTests.test_apk_detect_uses_configured_package_architecture)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/test_installer.py", line 162, in test_apk_detect_uses_configured_package_architecture
+    out = self.run_code('''uci() { :; }
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>/tests/test_installer.py", line 104, in run_code
+    self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
+AssertionError: 1 != 0 : 错误：上游没有匹配的 aarch64 / apk 正式包；不使用 uname 猜测或强制跨架构安装。
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.023s
+
+FAILED (failures=1)
