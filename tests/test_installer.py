@@ -149,6 +149,64 @@ apk() {{ if [ "$1" = version ]; then echo '<'; else touch '{self.root}/installed
         out = self.run_code('ARCH=mips64_octeonplus; workspace; release_info', False)
         self.assertIn('没有匹配', out.stderr)
 
+    def apk_system(self, configured='aarch64_generic', distro='aarch64_generic'):
+        self.package_mode('apk')
+        fixture = Path(__file__).parent / 'fixtures/release-v2.6.4.json'
+        (self.root / 'release.json').write_bytes(fixture.read_bytes())
+        (self.root / 'etc/openwrt_release').write_text(
+            f"DISTRIB_ARCH='{distro}'\n" if distro is not None else '')
+        (self.root / 'etc/apk').mkdir()
+        if configured is not None:
+            (self.root / 'etc/apk/arch').write_text(configured + '\n')
+        (self.root / 'lib/apk/db/installed').touch()
+
+    def test_apk_detect_uses_configured_package_architecture(self):
+        self.apk_system()
+        out = self.run_code('''uci() { :; }
+apk() { [ "$1" = --print-arch ] && echo aarch64; }
+detect; workspace; release_info''')
+        self.assertIn('EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip', out.stdout)
+
+    def test_apk_arch_file_precedes_distribution_arch(self):
+        self.apk_system(configured='aarch64_cortex-a53')
+        out = self.run_code('uci() { :; }; detect; workspace; release_info')
+        self.assertIn('EasyTier-v2.6.4-aarch64_cortex-a53-SNAPSHOT.zip', out.stdout)
+
+    def test_apk_missing_arch_file_uses_distribution(self):
+        self.apk_system(configured=None)
+        out = self.run_code('uci() { :; }; detect; workspace; release_info')
+        self.assertIn('EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip', out.stdout)
+
+    def test_apk_last_resort_compiled_arch_for_x86(self):
+        self.apk_system(configured=None, distro=None)
+        out = self.run_code('''uci() { :; }
+apk() { [ "$1" = --print-arch ] && echo x86_64; }
+detect; workspace; release_info''')
+        self.assertIn('EasyTier-v2.6.4-x86_64-SNAPSHOT.zip', out.stdout)
+
+    def test_apk_bare_arm_is_not_guessed(self):
+        self.apk_system(configured=None, distro=None)
+        out = self.run_code('''uci() { :; }
+apk() { [ "$1" = --print-arch ] && echo aarch64; }
+detect; workspace; release_info''', False)
+        self.assertIn('没有匹配的 aarch64 / apk', out.stderr)
+
+    def test_apk_unsupported_config_is_not_replaced(self):
+        self.apk_system(configured='aarch64_cortex-a76')
+        out = self.run_code('uci() { :; }; detect; workspace; release_info', False)
+        self.assertIn('没有匹配的 aarch64_cortex-a76', out.stderr)
+
+    def test_apk_arch_file_ignores_blank_comments_and_noarch(self):
+        self.apk_system(configured='\n# package ABI\nall\nnoarch\n aarch64_generic\r')
+        out = self.run_code('uci() { :; }; detect; workspace; release_info')
+        self.assertIn('EasyTier-v2.6.4-aarch64_generic-SNAPSHOT.zip', out.stdout)
+
+    def test_apk_invalid_config_is_rejected_without_shell_execution(self):
+        marker = self.root / 'unsafe-marker'
+        self.apk_system(configured=f'aarch64_generic; touch {marker}')
+        self.run_code('uci() { :; }; detect; workspace; release_info', False)
+        self.assertFalse(marker.exists())
+
     def test_reject_prerelease(self):
         self.make_release(prerelease=True)
         self.run_code('workspace; release_info', False)

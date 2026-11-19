@@ -3,7 +3,7 @@
 set -eu
 umask 077
 
-SCRIPT_VERSION=1.0.0
+SCRIPT_VERSION=1.0.1
 REPO=EasyTier/luci-app-easytier
 API=https://api.github.com/repos/$REPO
 WEB=https://github.com/$REPO
@@ -18,6 +18,7 @@ BACKUP=
 BOOT_STATE=none
 PM=
 ARCH=
+ARCH_SOURCE=
 LOCK=/tmp/et-luci-install.lock
 
 say() { printf '%s\n' "$*"; }
@@ -107,12 +108,27 @@ detect() {
     fi
     if [ -f /lib/apk/db/installed ] && has apk; then
         PM=apk
-        ARCH=$(apk --print-arch)
+        # --print-arch is APK_DEFAULT_ARCH (e.g. aarch64), not necessarily
+        # OpenWrt's configured package ABI (e.g. aarch64_generic).
+        if [ -s /etc/apk/arch ]; then
+            ARCH=$(awk 'NF && $1 !~ /^#/ && $1 != "all" && $1 != "noarch" {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, ""); print; exit
+            }' /etc/apk/arch)
+            ARCH_SOURCE=/etc/apk/arch
+        else
+            ARCH=$(sed -n "s/^DISTRIB_ARCH=['\"]\([^'\"]*\)['\"]$/\1/p" /etc/openwrt_release)
+            ARCH_SOURCE=/etc/openwrt_release
+            if [ -z "$ARCH" ]; then
+                ARCH=$(apk --print-arch) || die '无法读取 APK 架构。'
+                ARCH_SOURCE='apk --print-arch'
+            fi
+        fi
         SDK=SNAPSHOT
         EXT=apk
     elif has opkg; then
         PM=opkg
         ARCH=$(opkg print-architecture | awk '$1=="arch" && $2!="all" && $2!="noarch" {if ($3>p) {p=$3; a=$2}} END {print a}')
+        ARCH_SOURCE='opkg print-architecture'
         SDK=22.03.7
         EXT=ipk
     else
@@ -200,6 +216,7 @@ release_info() {
     printf '%s\n' "$DIGEST" | grep -Eq '^sha256:[0-9a-f]{64}$' || die '上游缺少 SHA-256 摘要，停止下载。'
     case "$SIZE" in ''|*[!0-9]*) die '上游下载大小无效。' ;; esac
     say "包管理器：$PM | 软件包架构：$ARCH | Release：$RELEASE"
+    [ -z "$ARCH_SOURCE" ] || say "架构来源：$ARCH_SOURCE"
     say "匹配附件：$ASSET"
     say "来源：$WEB/releases/tag/$RELEASE"
 }
